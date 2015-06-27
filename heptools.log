@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUN 2015 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUN 2015 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,13 +647,21 @@ Chapter 1.
 
 pdfTeX warning: pdflatex (file ./Pictures/chapter_head_2.pdf): PDF inclusion: f
 ound PDF version <1.6>, but at most version <1.5> allowed
-<Pictures/chapter_head_2.pdf, id=36, 301.125pt x 168.63pt>
+<Pictures/chapter_head_2.pdf, id=71, 301.125pt x 168.63pt>
 File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 
 <use Pictures/chapter_head_2.pdf>
 Package pdftex.def Info: Pictures/chapter_head_2.pdf used on input line 35.
 (pdftex.def)             Requested size: 426.83315pt x 284.5341pt.
- (./intro/intro.tex) [5 <./Pictures/chapter_head_2.pdf>] [6
+ (./intro/intro.tex
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 28.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+) [5 <./Pictures/chapter_head_2.pdf>] [6
 
 ]
 Chapter 2.
@@ -669,41 +677,41 @@ File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
 <use Pictures/chapter_head_2.pdf>
 Package pdftex.def Info: Pictures/chapter_head_2.pdf used on input line 45.
 (pdftex.def)             Requested size: 426.83315pt x 284.5341pt.
- (./geant/geant.tex)
+ (./geant/geant.tex
+Overfull \hbox (66.86192pt too wide) in paragraph at lines 10--11
+[]\OT1/ptm/m/n/10.95 http://geant4.web.cern.ch/geant4/UserDocumentation/UsersGu
+ides/IntroductionToGeant4/html/index.html 
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
  [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./heptools.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
-
-
-Package rerunfilecheck Warning: File `heptools.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `heptools.out':
-(rerunfilecheck)             Before: BCCF2ABE06B42D94DE9F30BCC6A9B43A;81
-(rerunfilecheck)             After:  E052DADF40C652CEC0BDCD335CD456B6;128.
+Package rerunfilecheck Info: File `heptools.out' has not changed.
+(rerunfilecheck)             Checksum: C8501BC7F88EBBBA66D29A2C05883C18;478.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 8599 strings out of 493089
- 122137 string characters out of 6134842
- 227302 words of memory out of 5000000
- 11913 multiletter control sequences out of 15000+600000
- 37444 words of font info for 81 fonts, out of 8000000 for 9000
+ 8638 strings out of 493089
+ 122716 string characters out of 6134842
+ 229302 words of memory out of 5000000
+ 11943 multiletter control sequences out of 15000+600000
+ 37701 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,11n,43p,444b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb>
-Output written on heptools.pdf (9 pages, 49444 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb>
+Output written on heptools.pdf (9 pages, 65517 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
