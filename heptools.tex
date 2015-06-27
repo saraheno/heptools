@@ -1,0 +1,50 @@
+
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+\usepackage{amssymb,tocloft}
+
+%----------------------------------------------------------------------------------------
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+\title{Introduction to Monte Carlo Tools for High Energy Physicists}
+\author{S. Eno and S. Jabeen}
+
+\begin{document}
+\maketitle
+\chapterimage{Pictures/chapter_head_2.pdf}
+\cftbeforetoctitleskip
+\setlength{\cftbeforetoctitleskip}{1}
+  \tableofcontents
+
+\newpage
+\section*{Preface}
+This will help you get started.
+
+
+
+\pagestyle{fancy} % Print headers again
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+\chapterimage{Pictures/chapter_head_2.pdf} % Chapter heading image
+\chapter{Pythia}
+\input{Pythia/pythia.tex}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 2
+%----------------------------------------------------------------------------------------
+\chapterimage{Pictures/chapter_head_2.pdf} % Chapter heading image
+\chapter{GEANT}
+\input{geant/geant.tex}
+
+
+\end{document}
+
+
