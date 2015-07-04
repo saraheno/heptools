@@ -1,0 +1,10 @@
+.DS_Store
+*.aux
+*.idx
+*.log
+*.out
+*.toc
+heptools.pdf
+*.log
+*~
+*#
